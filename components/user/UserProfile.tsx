@@ -1,4 +1,4 @@
-import { useUser } from "@/app/context/userContext";
+import { useUser } from "@/context/userContext";
 
 export default function HeaderAuth() {
   const { user, loading } = useUser();
